@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+}
+.header img {
+    width: 100%;
+}
+.subject,.tuijian {
+    padding: 10px 8px;
+    background-color: white;
+}
+
+.subject-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.subject-author {
+    font-size: 12px;
+    color: #969696;
+}
+.subject-author span {
+    margin-right: 20px;
+}
+.subject-content {
+    padding: 10px 0;
+}
+.tuijian span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(164, 134, 209);
+    border-radius: 4px;
+}
+.reply-div, .recent-comment {
+    padding: 8px;
+    background-color: white;
+}

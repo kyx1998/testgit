@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .reply_box {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .reply_box * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .reply_box input {
+            height: 30px;
+        }
+        .content_div {
+            width: 80%;
+            border: solid 1px green;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .input_text {
+            width: 100%;
+            padding-left: 5px;
+            outline: none;
+            border: none;
+            border-right: solid 1px green;
+        }
+        .input_btn {
+            width: 15%;
+        }
+        .file_img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+        }
+        .input_file_img {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .input_file {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="reply_box">
+    <div class="content_div">
+        <input type="text" class="input_text">
+        <div class="input_file_img">
+            <img src="image/shopping1.png" class="file_img">
+            <input type="file" class="input_file">
+        </div>
+    </div>
+    <input type="button" class="input_btn" value="发布">
+</div>
+
+</body>
+</html>

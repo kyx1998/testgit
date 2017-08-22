@@ -1,0 +1,98 @@
+.container {
+    margin-bottom: 10px;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    float: left;
+}
+
+.order {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+}
+.selected {
+    color: rgb(144,119,207);
+}
+
+.youxuan-product {
+    width: 100%;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px rgb(243,243,243);
+    padding: 10px 8px;
+}
+.product-item {
+    width: 49%;
+}
+
+.product-item a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 28px;
+}
+.product-item img {
+    width: 100%;
+}
+.price-car {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-car img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.price {
+    color: rgb(234,106,31);
+    font-weight: bold;
+}
+.order-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.up-down {
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+}
+.up,.down {
+    display: inline;
+    border-style: solid;
+    border-width: 5px;
+}
+.up {
+    border-color: white white rgb(209, 209, 209) white;
+}
+.down {
+    margin-top: 3px;
+    border-color: rgb(209, 209, 209) white  white  white;
+}
+.up-selected {
+    border-color: white white rgb(144,119,207) white;
+}
+.down-selected {
+    border-color: rgb(144,119,207) white  white  white;
+}

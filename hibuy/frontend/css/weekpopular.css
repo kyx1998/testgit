@@ -1,0 +1,21 @@
+.popular-desc {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.popular-desc img {
+    width: 35%;
+    border-radius: 8px;
+}
+.desc {
+    margin-left: 15px;
+    font-size: 13px;
+}
+.title {
+    margin-bottom: 10px;
+    font-size: 14px;
+}

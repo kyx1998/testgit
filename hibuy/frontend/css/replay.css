@@ -1,0 +1,126 @@
+.reply-div {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.recent-comment {
+    width: 100%;
+    margin-top: 20px;
+}
+.comment-header {
+    width: 100%;
+    border-bottom: solid 2px red;
+    color: red;
+    font-size: 1.5em;
+    padding-bottom: 8px;
+}
+
+.comment-item {
+    width: 100%;
+    margin-top: 20px;
+    border: solid 1px rgb(183, 183, 183);
+    padding: 8px 10px 0 10px;
+}
+
+.replyer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.replyer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.replyer-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.reply-nickname {
+    margin-left: 10px;
+    color: red;
+    font-size: 1em;
+}
+.ctime {
+    color: #adadad;
+}
+
+.like-reply {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #adadad;
+    padding: 5px 0;
+}
+.like {
+    margin-right: 20px;
+}
+.like-reply img {
+    width: 15px;
+    height: 15px;
+}
+.reply-content {
+    width: 100%;
+}
+.reply-content img {
+    width: 40%;
+    display: block;
+    margin-left: 30px;
+}
+
+/* 回复模块 */
+.reply {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reply-input {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px rgb(151, 151, 151);
+}
+.btn_publish {
+    width: 20%;
+}
+.reply-text {
+    width: 85%;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+    border-right: solid 1px rgb(151, 151, 151);
+}
+.reply-img {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.reply-img img {
+    width: 35px;
+    height: 35px;
+}
+.reply-file {
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+.reply input{
+    height: 35px;
+}
+.btn_publish {
+    width: 15%;
+}
+.hidden {
+    width: 30px;
+    height: 40px;
+}

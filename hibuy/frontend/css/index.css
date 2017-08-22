@@ -1,0 +1,143 @@
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* 水平方向对齐 */
+    align-items: center; /* 垂直对齐 */
+    padding: 0 10px;
+    background-color: white;
+}
+
+.menu-item, .menu-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item {
+    padding: 20px 0;
+}
+
+.menu-item img {
+    width: 50%;
+}
+
+.row {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 8px;
+    background-color: white;
+}
+.hotbuy {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.hotbuy img {
+    width: 100%;
+    border-radius: 5px;
+}
+.hotbuy-desc {
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.fashion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fashion-head {
+    width: 100%;
+}
+.fashion-head img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.fashion-product, .popular-product,.subject-product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.product-item, .popular-item {
+    width: 32%;
+
+}
+.product-item a {
+    width: 100%;
+    display: flex;/* flex布局 */
+    flex-direction: column; /* 排列方向: row(行)  column(列) */
+    justify-content: center; /* 水平对齐 */
+    align-items: center; /* 垂直对齐 */
+}
+.product-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.popular-product {
+    flex-wrap: wrap;
+    margin: 0;
+}
+.popular-product img {
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.popular-product .product-item {
+    padding: 20px;
+}
+
+.edit {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.edit img {
+    width: 100%;
+    border-radius: 8px;
+}
+.edit-desc {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: #dddddd;
+    font-size: 1.2em;
+    white-space: pre-line;
+    letter-spacing: 1px;
+}
+
+.subject-product .product-item {
+    width: 23%;
+}
+.subject-product .product-item p {
+    color: #ae0000;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px -2px 8px #a2a2a2;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.nav img {
+    width: 100%;
+}
+.nav-item {
+    width: 13%;
+}
