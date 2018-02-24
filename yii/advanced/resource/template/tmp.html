@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{book_name}</title>
+    <style>
+        .contain{
+            width: 80%;
+            margin: 0 10%;
+            height: 100%;
+            padding: 0;
+            background-color: rgba(58, 61, 61, 0.25);
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .path{
+
+            width: 100%;
+            margin: 10px 0;
+            border: solid 1px #E0E0E0;
+            padding: 10px 10px;
+        }
+        pre{
+            white-space:pre-wrap;
+            white-space:-moz-pre-wrap;
+            white-space:-o-pre-wrap;
+            word-wrap:break-word;
+            font-size: 14px;
+            padding: 0 150px;
+            text-indent: 4em;
+            word-wrap: break-word;
+            word-break: break-all;
+            text-align: justify;
+            line-height: 3;
+        }
+    </style>
+</head>
+<body>
+<div class="contain">
+    <div>
+        <div class="path">
+            <a href="#">看书网</a>&gt<a style="color: #f60" href="#">{book_name}</a>
+        </div>
+    </div>
+    <div>
+        <h2>{book_name}</h2>
+        <p>{ctime}</p>
+        <pre>{content}</pre>
+        <!--<table>
+            <tr>
+                <td width="100%" style="word-break:break-all;">{content}</td>
+            </tr>
+        </table>-->
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.wrap {
+    width: 100%;
+}
+.top_header{
+    height: 80px;
+    width: 80%;
+    min-width: 1080px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo,.search,.head_oper{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 10%;
+}
+.logo{
+    display: inline-block;
+    text-align: left;
+}
+.search{
+    display: inline-block;
+}
+.dropdown .search_txt .search_btn{
+    display: inline-block;
+}
+.search_btn img{
+    width: 25px;
+}
+.head_oper{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+.head_oper span{
+    width: 120px;
+    background-color: #ff6e00;
+    margin: 0 10px;
+}
+.register,.login{
+    display: inline-block;
+}
+.top_nav{
+    width: 100%;
+    min-width: 1080px;
+    margin-bottom:10px;
+    background-color: #333;
+    /*position: fixed;
+    top:0;*/
+}
+.top_nav_box{
+    margin: 0 20%;
+    line-height: 40px;
+    height: 40px;
+}
+.top_nav_box li:hover{
+    background-color: #222222;
+}
+.top_nav_box ul{
+    display: flex;
+    flex-direction: row;
+}
+.top_nav_box ul li{
+    height: 40px;
+    list-style: none;
+}
+.top_nav_box ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 20px;
+    /*border: solid 1px red;*/
+}
+.top_nav_category{
+    width: 100%;
+    padding: 0 20%;
+    height: 35px;
+    background-color: #ff9900;
+    line-height: 35px;
+}
+.top_nav_category ul{
+    display: flex;
+    flex-direction: row;
+}
+.top_nav_category ul li{
+    list-style: none;
+}
+.top_nav_category ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 15px;
+    /*border: solid 1px red;*/
+}
+.footer {
+    width: 100%;
+    min-width: 1080px;
+    border-top: solid 5px #E0E0E0;
+    padding-top: 30px;
+    margin: 20px auto;
+    bottom: 0;
+    text-align: center;
+}
+.footer p{
+    font-size: 0.9em;
+    color: #505050;
+    line-height: 10px;
+}
+.footer p:first-child{
+    color: #505050;
+    font-size: 1.0em;
+}
+.footer a{
+    text-decoration: none;
+    color: #505050;
+}
+a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}

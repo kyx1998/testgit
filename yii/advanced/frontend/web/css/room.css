@@ -1,0 +1,51 @@
+.contain{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: #666;
+}
+a:hover{
+    text-decoration: none;
+    color: #f60;
+}
+.head {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*height: 80px;*/
+    border: solid 1px #e0e0e0;
+    border-bottom: none;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: solid 1px #e0e0e0;
+}
+.main{
+    width: 90%;
+}
+.user_info{
+}
+.user_btn{
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+}
+.user_btn{
+    margin: 5px 10px;
+}
+.basic_info{
+    margin: 20px 10px;
+}
+.basic_info form{
+    border-top: solid 1px #ccc;
+    padding: 20px 40px;
+}
+form input{
+    margin: 10px 0;
+    padding: 0 10px;
+}

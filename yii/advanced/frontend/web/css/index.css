@@ -1,0 +1,361 @@
+.contain{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.main1{
+    width: 80%;
+    min-width: 1000px;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.week_like{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+}
+.week_like_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid 1px #E0E0E0;
+}
+.week_like_top a{
+    margin: 0 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.week_like_top a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+.imgs{
+    width: 70%;
+    margin: 10px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+.week_like_img1,.week_like_img2,.week_like_img3,.week_like_img4,.week_like_img5{
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+.imgs img{
+    width: 500px;
+    height: 300px;
+}
+
+.squares{
+    position: absolute;
+    bottom: 20px;
+    left: 310px;
+}
+.square{
+    display: inline-block;
+    width: 25px;
+    height: 8px;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 0 5px;
+}
+.square:hover{
+    background-color: #F60;
+}
+.week_like_book{
+    box-sizing: border-box;
+    width: 30%;
+    height: 100px;
+   /* border: solid 1px red;*/
+    position: absolute;
+    top: 70px;
+    left: 530px;
+    font-size: 14px;
+    color: #333;
+}
+.week_like_book h3{
+    margin: 0 0;
+    margin-top: 10px;
+}
+.week_like_book p{
+    border-bottom: solid 1px #ddd;
+    padding: 10px 0;
+}
+.week_like_book a:hover{
+    text-decoration: none;
+    color: #f60;
+}
+.new_book,.qzdjb,.qzscb{
+    margin-top: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    margin-left: 50px;
+}
+.book_head{
+    width: 100%;
+    border-left: solid 5px #f60;
+    height: 35px;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.new_book_btn{
+    width: 100%;
+    height: 80px;
+    margin: 10px 0;
+    border-top: solid 1px #E0E0E0;
+}
+.new_book_btn a{
+    float: left;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    margin: 20px 0;
+    border: solid 1px #e0e0e0;
+}
+.new_book_btn a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.new_book_link{
+    width: 100%;
+    height: 65%;
+}
+.new_book_link li{
+    list-style: none;
+    border-bottom: dotted 1px #E0E0E0;
+}
+.new_book_link a{
+    color: #333;
+}
+.new_book_link a:hover{
+    text-decoration: none;
+    color: #f60;
+}
+.main2{
+    width: 80%;
+    min-width: 1000px;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+.qzzj{
+    width: 45%;
+    box-sizing: border-box;
+}
+.title2{
+    width: 100%;
+    border-bottom: solid 1px #ddd;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+}
+.title2_box{
+    display: inline-block;
+    vertical-align: middle;
+    color: #ddd;
+}
+.title2_box a{
+    padding: 0 5px;
+    font-size: 16px;
+}
+.title2_box a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+.title2 h2{
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.qzzj_booklist{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.qzscb,.qzdjb{
+    margin: 0 25px;
+    width: 25%;
+}
+.booklist_info{
+    width: 38%;
+    padding: 0 10px;
+}
+.booklist_info_large{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px 10px;
+    border: solid 1px #E0E0E0;
+    text-align: center;
+}
+.booklist_info_large h3{
+    margin: 5px 0;
+    padding: 0;
+}
+.booklist_info_large p{
+    margin: 0;
+    padding: 0;
+}
+.booklist_info_large a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+.booklist_info_large img{
+    width: 100%;
+}
+.info_list{
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.booklist_info{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: dotted 1px #E0E0E0;
+}
+.booklist_info_img{
+    width: 45%;
+    margin: 5px 0;
+}
+.booklist_info_img a{
+    width: 100%;
+}
+.booklist_info_img img{
+    width: 100%;
+}
+.book_real_info{
+    padding-left: 10px;
+    width: 50%;
+}
+.book_real_info a{
+    font-size: 12px;
+}
+.book_real_info h3{
+    margin: 5px 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.book_real_info p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.book_real_info a:hover{
+    color: #f60;
+    text-decoration: none;
+}
+.user_name{
+    float: right;
+}
+.main3{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    min-width: 1000px;
+    margin: 0 10%;
+}
+.edit_like{
+    width: 16%;
+}
+.edit_head,.boy_like_head{
+    border-bottom: solid 1px #E0E0E0;
+}
+.edit_head h2{
+    margin-top: 10px;
+    padding: 5px 0;
+}
+.edit_btn{
+    margin: 10px 0;
+}
+.edit_btn a{
+    margin: 0 5px;
+}
+.edit_list li{
+    margin: 0;
+    list-style: none;
+    height: auto;
+    padding: 5px 0;
+}
+.edit_like a{
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: #666;
+}
+.edit_like a:hover{
+    color: #F60;
+    text-decoration: none;
+}
+.boy_like,.girl_like,.personal_like{
+    margin-left: 20px;
+    width: 28%;
+}
+.boy_like_head h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.boy_like_btn{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boy_like_btn a{
+    margin: 0 5px;
+}
+.boy_like a:hover{
+    text-decoration: none;
+    color: #F60;
+}
+.boy_like a{
+    color: #333;
+}
+.book{
+    border: solid 1px #eee;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.book img{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.num{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #F60;
+}
+.sum{
+    float: right;
+}
+.more{
+    float: right;
+    font-size: 12px;
+}

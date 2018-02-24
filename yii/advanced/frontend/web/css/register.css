@@ -1,0 +1,43 @@
+.contain{
+    width: 1080px;
+}
+.main{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    border: solid 1px #c7c7c7;
+}
+.main div{
+    margin: 20px 0 20px 100px;
+}
+.main_btn{
+    margin: 20px 100px;
+}
+label{
+    margin: 10px 0;
+    width: 80px;
+    text-align: left;
+}
+.code{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(50, 41, 50, 0.14);
+}
+.main_btn{
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.main_btn div{
+    margin: 0;
+    margin-right: 100px;
+}
+.main_btn a{
+    margin: 0 30px;
+}

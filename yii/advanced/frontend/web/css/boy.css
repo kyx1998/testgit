@@ -1,0 +1,36 @@
+a{
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+    color: #006cb8;
+}
+.list_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list_head a{
+    margin: 0 5px;
+    font-size: 16px;
+}
+.main3{
+    width: 80%;
+}
+.boy_list{
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: solid 1px #e0e0e0;
+}
+.list span{
+    float: right;
+}
+.list ul{
+    width: 30%;
+    margin-right: 30px;
+    margin-top: 20px;
+}

@@ -1,0 +1,240 @@
+.contain{
+    width: 80%;
+    margin: 0 10%;
+    padding: 0;
+    color: #999;
+}
+a{
+    color: #333;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #f60;
+}
+.path{
+    width: 100%;
+    margin: 10px 0;
+    border: solid 1px #E0E0E0;
+    padding: 10px 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.book_detail{
+    width: 100%;
+    margin-right: 50px;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+}
+.img img,a{
+    width: 100%;
+}
+.img a{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #ff7836;
+}
+.info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.info_head{
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+.info_head span{
+    padding: 5px 5px;
+}
+.content,.article_info{
+    width: 100%;
+    height: 60%;
+}
+.content{
+    padding: 5px 5px;
+}
+.bookData{
+    padding: 5px 5px;
+    margin: 50px 0;
+}
+.save{
+    float: right;
+    border: solid 1px #e0e0e0;
+}
+.article_info{
+    padding: 5px 5px;
+}
+.book_list{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.new{
+    border-left: solid 2px #f60;
+    padding-left: 10px;
+}
+.chapter{
+    background-color: #f9f9f9;
+    padding: 0 10px;
+}
+.chap_list{
+    margin: 5px 0;
+    padding: 5px 0;
+    border-top: solid 1px #E0E0E0;
+}
+.chap_list li>span:last-child{
+    float: right;
+}
+.article{
+    border: solid 1px #E0E0E0;
+}
+.article_head{
+    text-align: right;
+    padding: 5px 5px;
+}
+.article_head span{
+    padding: 0 5px;
+    float: left;
+    border-left: solid 2px #f60;
+}
+.article_list{
+    border-top: solid 1px #e0e0e0;
+    padding: 5px 5px;
+}
+.article_list span{
+    float: right;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.head{
+    padding: 5px 5px;
+}
+.head span{
+    border-left: solid 2px #f60;
+    padding: 0 5px;
+}
+.book_btn{
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px #e0e0e0;
+}
+.book_btn a{
+    text-align: center;
+    padding: 5px 20px;
+    border: solid 1px #e0e0e0;
+}
+.book_link{
+    margin-top: 20px;
+}
+.num{
+    color: white;
+    background-color: #598EB7;
+}
+.msg{
+    border: solid 1px #e0e0e0;
+}
+.msg_head{
+    padding: 10px 5px;
+}
+.msg_head span{
+    border-left: solid 2px #f60;
+    padding-left: 5px;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.msg_btn{
+    border-top: solid 1px #e0e0e0;
+    border-bottom: solid 1px #e0e0e0;
+    display: flex;
+    flex-direction: row;
+}
+.msg_btn a{
+    text-align: center;
+    width: 15%;
+    padding: 5px 5px;
+    border-right: solid 1px #e0e0e0;
+}
+.msg_main{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+.sort{
+    margin-top: 5px;
+    text-align: center;
+}
+.sort a{
+    padding: 0 20px;
+    border: solid 1px #e0e0e0;
+}
+.user_info{
+    width: 30%;
+}
+.user_content{
+    width: 70%;
+}
+.user_info{
+    display: flex;
+    flex-direction: row;
+}
+.user_info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.brief{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.num{
+    text-align: center;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.sum{
+    float: right;
+}
+.reply{
+    margin: 20px 0;
+    border: solid 1px #e0e0e0;
+}
+.title{
+    border: solid 1px #e0e0e0;
+    padding: 10px 10px;
+}
+.title span{
+    margin: 5px 5px;
+    border-left: solid 2px #f60;
+    padding: 0 5px;
+}
+.form{
+    padding: 10px 10px;
+}
+textarea{
+    margin: 0 5%;
+    width: 90%;
+}

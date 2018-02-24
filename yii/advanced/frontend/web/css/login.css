@@ -1,0 +1,148 @@
+.contain{
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+}
+.panel{
+    width:500px;
+    margin: 50px 100px;
+}
+.cont_left{
+    width: 60%;
+}
+.form,.cont_right{
+
+}
+.cont_right{
+    margin: 50px 0;
+    padding:0;
+    width: 25%;
+}
+.panel-heading{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.login_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.book{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    padding: 5px 5px;
+}
+.head span{
+    border-left: solid 2px #f60;
+    padding: 0 5px;
+}
+.book_btn{
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px #e0e0e0;
+}
+.book_btn a{
+    text-align: center;
+    padding: 5px 20px;
+    border: solid 1px #e0e0e0;
+}
+.book_link{
+    margin-top: 20px;
+}
+.num{
+    color: white;
+    background-color: #598EB7;
+}
+
+
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 40px;
+}
+.form-lable {
+    width: 15%;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 16px;
+}
+.form-value {
+    width: 70%;
+    color: #555555;
+}
+.form-value [type=text],.form-value [type=password] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    outline-color: green;
+}
+a.btn-register, a.btn-login-rg {
+    display: inline-block;
+    font-size: 18px;
+    color: #64a131;
+    border: solid 1px #64a131;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+a.btn-register {
+    color: white;
+    background-color: #64a131;
+    margin-right: 13px;
+}
+.vf {
+    display: flex;
+    flex-direction: row;
+}
+.verify-combine {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    height: 43px;
+    line-height: 43px;
+}
+.verify {
+    width: 90%;
+    border: 1px solid #ccc;
+}
+.verify input[type=text] {
+    width: 40%;
+}
+.verify img {
+    vertical-align: middle;
+}
+
+.forgetpsd {
+    color: #999;
+    font-size: 16px;
+    overflow: hidden;
+}
+.forgetpsd a {
+    display: inline-block;
+    float: right;
+}
+.login-form {
+    margin-top: 60px;
+}
+
+.verify-code input[type=text] {
+    width: 50%;
+}
+.verify-code span {
+    background-color: #64a131;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

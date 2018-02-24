@@ -1,0 +1,82 @@
+.contain{
+    width: 80%;
+    margin: 5% 10%;
+    color: #333;
+}
+a{
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+    color: #333;
+}
+.head{
+    width: 100%;
+    border: solid 1px #f5d3c6;
+    padding: 5px 10px;
+}
+.main{
+    margin: 10px 0;
+    border: solid 1px #f5d3c6;
+}
+.s_btn{
+    border: solid 1px #f5d3c6;
+    padding: 10px 10px;
+}
+.s_btn a{
+    border: solid 1px #f5d3c6;
+    margin: 0 5px;
+    padding: 5px 5px;
+}
+.s_btn select{
+    border: solid 1px #f5d3c6;
+    margin: 0 5px;
+    padding: 5px 5px;
+}
+.detail{
+    padding: 40px 0;
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    border-bottom: dashed 1px #e5e5e5;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    width:85%;
+
+}
+.info span{
+    width: 200px;
+
+}
+.img{
+    width: 20%;
+    padding: 40px 20px;
+}
+img{
+    width: 100%;
+}
+.content{
+
+}
+.info span{
+    margin-right: 30px;
+}
+.book_btn{
+    margin: 20px 0;
+    background-color: #f7f7f7;
+}
+.book_btn a{
+    display: block;
+    padding: 5px 20px;
+    background-color: #ffebeb;
+    margin: 10px 20px;
+    font-weight: bold;
+}
